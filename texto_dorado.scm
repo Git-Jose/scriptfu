@@ -1,5 +1,6 @@
 
 ;***************************************************************************************************************
+;*******************Visite: http://criptalabs.tk/ ***************************************************************
 ; La licencia:
 ;
 ;    This program is free software: you can redistribute it and/or modify
@@ -147,7 +148,7 @@
 		(gimp-layer-set-offsets capaSombra 4 4);desviación de la sombra
 		(gimp-layer-resize-to-image-size capaSombra);la capa sombra a tamaño de imagen
 		(gimp-layer-set-opacity capaSombra 80)));Sombra lista
-		;(gimp-levels capaTexto 0 38 225 1 0 255)
+		(gimp-levels capaTexto 0 38 225 1 0 255)
 ;niveles
 		(gimp-levels capaTexto 0 38 225 1 0 255)
 		
@@ -163,7 +164,7 @@
 	_"Texto dorado"                                          ;etiqueta del menú 2REQUERIDO
    	_"Crea un texto dorado." ;descripción 3REQUERIDO
 	"Jose Antonio Carrascosa Garcia"                                                     ;autor 4REQUERIDO
-	"Copyright 2015 Ábaco"                                      ;copyright 5REQUERIDO
+	"Copyright 2015 criptalabs"                                      ;copyright 5REQUERIDO
 	"Viernes 18 de Diciembre de 2015"                         ;Fecha de creación 6REQUERIDO
 	""                                                         ;Tipo de imagen con el que trabaja. 7REQUERIDO
 	SF-STRING        _"Texto"       "  Texto\ndorado"
@@ -174,4 +175,4 @@
 	SF-TOGGLE        _"Sombra"        FALSE
 	SF-COLOR         _"Color de la sombra"   '(255 255 255)
 	)
-	(script-fu-menu-register  "script-fu-Texto-dorado" "<Image>/File/Create/Abaco")
+	(script-fu-menu-register  "script-fu-Texto-dorado" "<Image>/File/Create/")

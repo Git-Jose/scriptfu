@@ -4,6 +4,11 @@
 ;Si la imagen está en escala de grises, al ejecutar el script con el filtro Desaturar, este la pasará a RGB 
 ;y lanzará un mensaje de aviso.
 ;***************************************************************************************************************
+;
+;*****************************Visite: http://criptalabs.tk/ ****************************************************
+;
+;***************************************************************************************************************
+;***************************************************************************************************************
 ; La licencia:
 ;
 ;    This program is free software: you can redistribute it and/or modify
@@ -108,7 +113,7 @@
 	 _"Selección a lápiz"                                         
    	 _"Simula un dibujo a lápiz de las áreas seleccionadas de dos maneras distintas." 
 	"Jose Antonio Carrascosa Garcia"                                
-	"Copyright 2016 Ábaco"                                     
+	"Copyright 2016 criptalabs.tk"                                     
 	"Viernes 8 de Enero de 2016"                        
 	"RGB* GRAY*"                                                         
 	SF-IMAGE        "Image"                  0
